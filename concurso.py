@@ -116,7 +116,7 @@ def autenticar_usuario(username, password, datos):
     for usuario in datos['usuarios']:
         if usuario['username'] == username:
             hash_almacenado = usuario['password']
-    return hashlib.sha256(password.encode()).hexdigest() == hash_almacenado
+            return hashlib.sha256(password.encode()).hexdigest() == hash_almacenado
     return False
 
 # Función para generar IDs únicos
@@ -407,7 +407,7 @@ def mostrar_dashboard(datos):
             proyectos_en_horario.append(proyecto)
     
     # Métricas principales
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         st.metric("📊 Total Proyectos", len(datos['proyectos']))
     with col2:
@@ -416,6 +416,20 @@ def mostrar_dashboard(datos):
         st.metric("✅ Calificados", len([p for p in datos['proyectos'] if p.get('calificacion_final', 0) > 0]))
     with col4:
         st.metric("📚 Asignaturas", len(set([p.get('asignatura', '') for p in datos['proyectos']])))
+    with col5:
+        # Botón de descarga del JSON
+        # Solo mostrar este botón si el usuario es admin
+        if 'usuario_actual' in st.session_state and st.session_state.usuario_actual['rol'] == 'admin':
+            if st.button("📥 Descargar Datos", key="descargar_json", use_container_width=True):
+                # Crear archivo JSON para descarga
+                json_str = json.dumps(datos, indent=2, ensure_ascii=False)
+                st.download_button(
+                    label="💾 Descargar data.json",
+                    data=json_str.encode('utf-8'),
+                    file_name=f"datos_proyectos_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
+                    mime="application/json",
+                    key="download_json"
+                )
     
     # Búsqueda rápida
     st.markdown("---")
@@ -901,6 +915,15 @@ def mostrar_registro_proyecto(datos):
     
 def mostrar_calificacion_proyecto(datos):
     """Muestra la sección de calificación de proyectos"""
+    # colocamos un boton que lleve al dashboard
+    if st.button("🔙 Volver al Dashboard", use_container_width=True):
+        mostrar_dashboard(datos)
+        st.stop()
+
+
+
+
+
     st.markdown('<h1 class="main-header"> Area de Calificación de Proyectos</h1>', unsafe_allow_html=True)
     
     # Mensaje informativo según el rol
@@ -943,36 +966,8 @@ def mostrar_calificacion_proyecto(datos):
             st.markdown("---")
             
             # Criterios de calificación (fuera del formulario para actualización en tiempo real)
-            st.markdown('<div class="form-container">', unsafe_allow_html=True)
-            st.subheader("Criterios de Calificación")
-            
-            # Mostrar tabla de criterios y pesos
-            st.markdown("### Tabla de Criterios y Pesos")
-            col_criterio, col_peso, col_descripcion = st.columns([1, 1, 2])
-            
-            with col_criterio:
-                st.markdown("**CRITERIO**")
-                st.write("INNOVACIÓN")
-                st.write("VIABILIDAD")
-                st.write("IMPACTO")
-                st.write("EJECUCIÓN")
-                st.write("PITCH")
-            
-            with col_peso:
-                st.markdown("**PESO**")
-                st.write("30%")
-                st.write("25%")
-                st.write("20%")
-                st.write("15%")
-                st.write("10%")
-            
-            with col_descripcion:
-                st.markdown("**DESCRIPCIÓN**")
-                st.write("¿Qué hace único al proyecto? ¿Es disruptivo?")
-                st.write("¿Es factible implementarlo? ¿Qué recursos necesita?")
-                st.write("¿A quién beneficia? ¿Qué problema soluciona?")
-                st.write("¿Está bien desarrollado? ¿Qué tan profesional es?")
-                st.write("¿Convencieron al panel? ¿Comunicaron claramente?")
+            st.markdown('<div >', unsafe_allow_html=True)
+
             
             st.markdown("---")
             st.markdown("### Calificaciones por Criterio")
@@ -1192,7 +1187,7 @@ def mostrar_calificacion_proyecto(datos):
                         # Buscar el proyecto original para obtener el ID
                         proyecto_original = next((p for p in datos['proyectos'] if p['nombre'] == proyecto['Nombre del Proyecto']), None)
                         if proyecto_original and 'id' in proyecto_original:
-                            if st.button("⭐ Calificar", key=f"calificar_{proyecto_original['id']}", use_container_width=True):
+                            if st.button("⭐ Calificar", key=f"calificar_{proyecto_original['id']}_{i}", use_container_width=True):
                                 st.session_state.proyecto_seleccionado = proyecto_original['id']
                                 st.rerun()
                         else:
@@ -1317,6 +1312,23 @@ def mostrar_ranking(datos):
 def mostrar_usuarios(datos):
     """Muestra la gestión de usuarios"""
     st.markdown('<h1 class="main-header">Gestión de Usuarios</h1>', unsafe_allow_html=True)
+    
+    # Botón de descarga de datos (solo para administradores)
+    if st.session_state.usuario_actual['rol'] == 'admin':
+        col_descarga, col_spacer = st.columns([1, 3])
+        with col_descarga:
+            if st.button("📥 Descargar Datos Completos", key="descargar_datos_completos", use_container_width=True):
+                # Crear archivo JSON para descarga
+                json_str = json.dumps(datos, indent=2, ensure_ascii=False)
+                st.download_button(
+                    label="💾 Descargar data.json",
+                    data=json_str.encode('utf-8'),
+                    file_name=f"datos_completos_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
+                    mime="application/json",
+                    key="download_datos_completos"
+                )
+    
+    st.markdown("---")
     
     if st.session_state.usuario_actual['rol'] == 'admin':
         with st.form("registro_usuario"):
