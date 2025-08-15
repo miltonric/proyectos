@@ -1,0 +1,1569 @@
+{
+  "usuarios": [
+    {
+      "id": "user_001",
+      "username": "admin",
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "nombre": "Administrador",
+      "email": "admin@universidad.edu",
+      "rol": "admin",
+      "fecha_registro": "2024-01-01"
+    },
+    {
+      "id": "user_20250813_232949_879207",
+      "username": "milton",
+      "password": "55bb25bd1e803cd0bf8ac16488746020c42cc33e16d8ff6293bd6e870554e83d",
+      "nombre": "Milton Palacios",
+      "email": "milpalacios23@gmail.com",
+      "rol": "docente",
+      "fecha_registro": "2025-08-13"
+    },
+    {
+      "id": "user_20250814_093321_855192",
+      "username": "dario",
+      "password": "5d3c5a64145e704481a60f32600a239c283fcb48dec81aaff59b13d9cca89a06",
+      "nombre": "Dario Valarezo",
+      "email": "davalarezole@uide.edu.ec",
+      "rol": "docente",
+      "fecha_registro": "2025-08-14"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "proj_001",
+      "nombre": "Sistema de Turnos para Atención en Secretaría",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 1",
+        "Estudiante 2"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_002",
+      "nombre": "UIDE Deportes",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 3",
+        "Estudiante 4"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_003",
+      "nombre": "Distribuidora de Agua",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 5",
+        "Estudiante 6"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_004",
+      "nombre": "Sistema de Registro de Tareas y Reportes Diarios del Personal de Servicios Generales de la UIDE",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 7",
+        "Estudiante 8"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_005",
+      "nombre": "Sistema de Reservas de Tutoría y Seguimiento de Tesis de la UIDE",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 9",
+        "Estudiante 10"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_006",
+      "nombre": "Sistema de Óptica de Catamayo",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 11",
+        "Estudiante 12"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_007",
+      "nombre": "Sistema de Gestión de Concursos Organizados por la UIDE",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 13",
+        "Estudiante 14"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_008",
+      "nombre": "Sistema de Ingreso Master PC",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 15",
+        "Estudiante 16"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_009",
+      "nombre": "Sistema de Venta de Farmacia",
+      "asignatura": "Programación Estructurada y Funcional; Estructura, Modelado y Almacenamiento de Base de Datos",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 17",
+        "Estudiante 18"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho, Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_010",
+      "nombre": "Grupo Social Universitario (GSU) UIDE",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 19",
+        "Estudiante 20"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_011",
+      "nombre": "Servidor Educativo Offline para Comunidades con Acceso Limitado a Internet",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 21",
+        "Estudiante 22"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_012",
+      "nombre": "NFC",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 23",
+        "Estudiante 24"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_013",
+      "nombre": "ChatBot Médico",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 25",
+        "Estudiante 26"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_014",
+      "nombre": "Minado de Criptomonedas",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 27",
+        "Estudiante 28"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_015",
+      "nombre": "Página Web de la Asignatura",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 29",
+        "Estudiante 30"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_016",
+      "nombre": "Consola de Videojuegos",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 31",
+        "Estudiante 32"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_017",
+      "nombre": "Agenda Saludable Semanal",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 33",
+        "Estudiante 34"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_018",
+      "nombre": "Asistente Virtual para Educación Progresiva de Matemáticas Básica",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 35",
+        "Estudiante 36"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_019",
+      "nombre": "Energía Consciente",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 37",
+        "Estudiante 38"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_020",
+      "nombre": "Sistema Inteligente de Monitoreo Eléctrico",
+      "asignatura": "Introducción UNIX",
+      "semestre": "Semestre 2",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 39",
+        "Estudiante 40"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_021",
+      "nombre": "Sistema de Gestión de Inventario de Decoraciones de Vehículo",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 41",
+        "Estudiante 42"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_022",
+      "nombre": "Seguimiento de Tesis",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 43",
+        "Estudiante 44"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_023",
+      "nombre": "Sistema de Gestión de la Licorera",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 45",
+        "Estudiante 46"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_024",
+      "nombre": "Sistema de Gestión de Restaurante con Recomendaciones y Responsivo para que se Visualice en Todos los Dispositivos",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 47",
+        "Estudiante 48"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_025",
+      "nombre": "Tienda UIDE",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 49",
+        "Estudiante 50"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_026",
+      "nombre": "Sistema de Seguimiento de Resultados de los Encuentros Deportivos de la UIDE",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 51",
+        "Estudiante 52"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_027",
+      "nombre": "Tienda en Línea",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 53",
+        "Estudiante 54"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_028",
+      "nombre": "Sistema de Registro de Tareas y Reportes Diarios del Personal de Servicios Generales de la UIDE",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 55",
+        "Estudiante 56"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_029",
+      "nombre": "Venta y Registros Chanchos",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 57",
+        "Estudiante 58"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_030",
+      "nombre": "Sistema de Gestión de una Fundación",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 59",
+        "Estudiante 60"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_031",
+      "nombre": "Sistema de Registro de Eventos, Presentación de Ponente, Reserva de Participación y Encuestas de Satisfacción de los Eventos que Organiza la UIDE",
+      "asignatura": "Programación Orientada a Objetos",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 61",
+        "Estudiante 62"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_032",
+      "nombre": "Prototipo IoT para un Sistema de Riego en Función de la Humedad para Cultivos",
+      "asignatura": "Internet de las Cosas",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 63",
+        "Estudiante 64"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_033",
+      "nombre": "Eficiencia Energética. Medición de Consumo Energético",
+      "asignatura": "Internet de las Cosas",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 65",
+        "Estudiante 66"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_034",
+      "nombre": "Prototipo IoT para un Sistema de Riego en Función de la Humedad y Temperatura",
+      "asignatura": "Internet de las Cosas",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 67",
+        "Estudiante 68"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_035",
+      "nombre": "Prototipo IoT para un Sistema Conteo de Parqueadero Inteligente",
+      "asignatura": "Internet de las Cosas",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 69",
+        "Estudiante 70"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_036",
+      "nombre": "CTF 1",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 71",
+        "Estudiante 72"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_037",
+      "nombre": "CTF 2",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 73",
+        "Estudiante 74"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_038",
+      "nombre": "Fake Access Point",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 75",
+        "Estudiante 76"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_039",
+      "nombre": "Remote Keylogger",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 77",
+        "Estudiante 78"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_040",
+      "nombre": "IDS/IPS",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 79",
+        "Estudiante 80"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_041",
+      "nombre": "Sistema de Encriptación",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 81",
+        "Estudiante 82"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_042",
+      "nombre": "CTF 3",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 83",
+        "Estudiante 84"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_043",
+      "nombre": "CTF 4",
+      "asignatura": "Fundamentos de la Seguridad de los Sistemas Informáticos y de la Información",
+      "semestre": "Semestre 3",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 85",
+        "Estudiante 86"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 11:00 a 13:00 en el Auditorio"
+    },
+    {
+      "id": "proj_044",
+      "nombre": "Proceso de Gestión de Turnos de Servicios Estudiantiles",
+      "asignatura": "Programación de Middleware y Seguridad de Base de Datos; Programación web",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 87",
+        "Estudiante 88"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo, Wilson Valverde",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_045",
+      "nombre": "App para Gestión y Sorteo de Deportes",
+      "asignatura": "Programación de Middleware y Seguridad de Base de Datos; Programación web",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 89",
+        "Estudiante 90"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo, Wilson Valverde",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_046",
+      "nombre": "App para Reserva de Tutorías Estudiantiles",
+      "asignatura": "Programación de Middleware y Seguridad de Base de Datos; Programación web",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 91",
+        "Estudiante 92"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo, Wilson Valverde",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_047",
+      "nombre": "App para Gestión de Proceso de Titulación",
+      "asignatura": "Programación de Middleware y Seguridad de Base de Datos; Programación web",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 93",
+        "Estudiante 94"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo, Wilson Valverde",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_048",
+      "nombre": "App para Gestión del Canvas LMS",
+      "asignatura": "Programación de Middleware y Seguridad de Base de Datos; Programación web",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 95",
+        "Estudiante 96"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo, Wilson Valverde",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_049",
+      "nombre": "Phishing 101",
+      "asignatura": "Seguridad del Sistema de Información",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 97",
+        "Estudiante 98"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_050",
+      "nombre": "Jammer Bluetooth",
+      "asignatura": "Seguridad del Sistema de Información",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 99",
+        "Estudiante 100"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_051",
+      "nombre": "Captura de Contraseñas en HTTP/HTTPS",
+      "asignatura": "Seguridad del Sistema de Información",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 101",
+        "Estudiante 102"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_052",
+      "nombre": "Hacker WiFi Deauther",
+      "asignatura": "Seguridad del Sistema de Información",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 103",
+        "Estudiante 104"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_053",
+      "nombre": "Bloqueador de Redes IoT",
+      "asignatura": "Seguridad del Sistema de Información",
+      "semestre": "Semestre 4",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 105",
+        "Estudiante 106"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_054",
+      "nombre": "GeoAsistencia Pro: Control de Asistencia con Geocerca",
+      "asignatura": "Programación Móvil; Ingeniería de Software",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 107",
+        "Estudiante 108"
+      ],
+      "docente_responsable": "Richard, Charlie",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_055",
+      "nombre": "CanchaApp: Reserva y Gestión de Espacios Deportivos",
+      "asignatura": "Programación Móvil; Ingeniería de Software",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 109",
+        "Estudiante 110"
+      ],
+      "docente_responsable": "Richard, Charlie",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_056",
+      "nombre": "TorneoExpress: Organización de Juegos y Resultados",
+      "asignatura": "Programación Móvil; Ingeniería de Software",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 111",
+        "Estudiante 112"
+      ],
+      "docente_responsable": "Richard, Charlie",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_057",
+      "nombre": "TutorConnect: Gestión de Clases y Tutorías para Docentes",
+      "asignatura": "Programación Móvil; Ingeniería de Software",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 113",
+        "Estudiante 114"
+      ],
+      "docente_responsable": "Richard, Charlie",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_058",
+      "nombre": "Análisis de Sentimientos",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 115",
+        "Estudiante 116"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_059",
+      "nombre": "Chat - Boot Reserva de Tutorías Académicas",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 117",
+        "Estudiante 118"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_060",
+      "nombre": "Rutas Marítimas Migratorias",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 119",
+        "Estudiante 120"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_061",
+      "nombre": "IA a Escribir Código para Lógica de Programación Smartics",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 121",
+        "Estudiante 122"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_062",
+      "nombre": "Predicción de Esfuerzo Físico GYM",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 123",
+        "Estudiante 124"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_063",
+      "nombre": "Detector de Plagio",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 125",
+        "Estudiante 126"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_064",
+      "nombre": "Movimientos Corporales en el Baile",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 127",
+        "Estudiante 128"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_065",
+      "nombre": "Generador de Cuentos Infantiles",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 129",
+        "Estudiante 130"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_066",
+      "nombre": "Asistente Personal",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 131",
+        "Estudiante 132"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_067",
+      "nombre": "Sentimientos Restaurantes",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 133",
+        "Estudiante 134"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_068",
+      "nombre": "Sistema de Detección del Cáncer",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 135",
+        "Estudiante 136"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_069",
+      "nombre": "Asistente Vocacional",
+      "asignatura": "Inteligencia Artificial",
+      "semestre": "Semestre 5",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 137",
+        "Estudiante 138"
+      ],
+      "docente_responsable": "Milton Ricardo Palacios Morocho",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 15:00 a 16:00 en el aula C10"
+    },
+    {
+      "id": "proj_070",
+      "nombre": "Tinder para Trabajo Informal",
+      "asignatura": "Interfaces y Multimedia",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 139",
+        "Estudiante 140"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_071",
+      "nombre": "Repositorio Educativo Comunidad Shuar",
+      "asignatura": "Interfaces y Multimedia",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 141",
+        "Estudiante 142"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_072",
+      "nombre": "Plataforma Bingo Benéfico",
+      "asignatura": "Interfaces y Multimedia",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 143",
+        "Estudiante 144"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_073",
+      "nombre": "Eco Trueque Intercambio Comunitario",
+      "asignatura": "Interfaces y Multimedia",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 145",
+        "Estudiante 146"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_074",
+      "nombre": "Marketplace Agrícola con Distribución Equitativa",
+      "asignatura": "Interfaces y Multimedia",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 147",
+        "Estudiante 148"
+      ],
+      "docente_responsable": "Charlie Cárdenas Toledo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_075",
+      "nombre": "CTF4ALL",
+      "asignatura": "Seguridad en Redes",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 149",
+        "Estudiante 150"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_076",
+      "nombre": "Hacking Lab",
+      "asignatura": "Seguridad en Redes",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 151",
+        "Estudiante 152"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_077",
+      "nombre": "ESP32 Marauder",
+      "asignatura": "Seguridad en Redes",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 153",
+        "Estudiante 154"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_078",
+      "nombre": "MITM",
+      "asignatura": "Seguridad en Redes",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 155",
+        "Estudiante 156"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_079",
+      "nombre": "Proyecto de Minería de Datos Utilizando un Conjunto de Datos Público",
+      "asignatura": "Minería de Datos",
+      "semestre": "Semestre 6",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 157",
+        "Estudiante 158"
+      ],
+      "docente_responsable": "Byron Acaro Jaramillo",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_080",
+      "nombre": "Sistema de Alerta de Intrusos con IoT y Telegram",
+      "asignatura": "Tecnologías Emergentes",
+      "semestre": "Semestre 8",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 159",
+        "Estudiante 160"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_081",
+      "nombre": "Monitoreo Ambiental con Dispositivos IoT para Aulas",
+      "asignatura": "Tecnologías Emergentes",
+      "semestre": "Semestre 8",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 161",
+        "Estudiante 162"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_082",
+      "nombre": "Sistema de Monitoreo Remoto de Temperatura y Humedad basado en IoT con ESP32 y ThingSpeak",
+      "asignatura": "Tecnologías Emergentes",
+      "semestre": "Semestre 8",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 163",
+        "Estudiante 164"
+      ],
+      "docente_responsable": "Darío Javier Valarezo León",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_083",
+      "nombre": "ARTE&CRAFTS AC",
+      "asignatura": "Negocios Electrónicos",
+      "semestre": "Semestre 8",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 165",
+        "Estudiante 166"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    },
+    {
+      "id": "proj_084",
+      "nombre": "SweetRoses",
+      "asignatura": "Negocios Electrónicos",
+      "semestre": "Semestre 8",
+      "carrera": "Ingeniería en Sistemas",
+      "estudiantes": [
+        "Estudiante 167",
+        "Estudiante 168"
+      ],
+      "docente_responsable": "Juan Sanmartín",
+      "fecha_registro": "2024-01-15",
+      "estado": "en_calificacion",
+      "calificaciones": [],
+      "calificacion_final": 0,
+      "posicion_ranking": 0,
+      "horas_presentacion": "Viernes, 15 de agosto de 2025, 16:00 a 17:00 en el aula C10"
+    }
+  ],
+  "calificaciones": [
+    
+  ],
+  "configuracion": {
+    "pesos_criterios": {
+      "innovacion": 30,
+      "viabilidad": 25,
+      "impacto": 20,
+      "ejecucion": 15,
+      "pitch": 10
+    },
+    "max_calificacion": 10,
+    "min_calificacion": 0
+  },
+  "ranking": {
+    "fecha_actualizacion": "2025-08-15",
+    "proyectos_ganadores": [
+      {
+        "premio": "🥇 Oro",
+        "nombre_proyecto": "Sistema de Turnos para Atención en Secretaría",
+        "calificacion_final": 0
+      }
+    ]
+  }
+}
